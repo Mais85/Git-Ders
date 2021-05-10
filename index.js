@@ -5,7 +5,8 @@ const express = require('express');
 var port = 3000;
 var app = express();
 var wikiUrls1;
-var mas = "masi change main";
+
+var mas = "masi change conf-main merged";
 
 rp(url)
   .then(function(html){
