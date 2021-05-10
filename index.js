@@ -5,6 +5,7 @@ const express = require('express');
 var port = 3000;
 var app = express();
 var wikiUrls1;
+var mas = "masi";
 
 rp(url)
   .then(function(html){
