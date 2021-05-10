@@ -7,6 +7,7 @@ var app = express();
 var wikiUrls1;
 
 var mas = "masi change conf-main merged";
+var mes = 1;
 
 rp(url)
   .then(function(html){
